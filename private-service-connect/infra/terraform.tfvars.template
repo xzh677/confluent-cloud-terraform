@@ -1,0 +1,13 @@
+resource_prefix            = "xxx"
+confluent_cloud_api_key    = "xxx"
+confluent_cloud_api_secret = "xxx+xxx"
+# https://docs.confluent.io/cloud/current/stream-governance/packages.html#sr-regions
+schema_region_id           = "sgreg-4"
+# from okta oauth metadata API https://xxx.okta.com/oauth2/xxx/.well-known/oauth-authorization-server
+oauth_issuer               = "https://xxx.okta.com/oauth2/xxx"
+oauth_jwks_uri             = "https://xxx.okta.com/oauth2/xxx/v1/keys"
+region                     = "australia-southeast1"
+subnet_name_by_zone        = ["australia-southeast1-a", "australia-southeast1-b", "australia-southeast1-c"]
+gcp_project_id             = "xxx-01"
+gcp_creds_path             = "xxx-01-ee1fab99xxxx.json"
+proxy_server_ssh_key       = "~/.ssh/gcp-key.pub"
